@@ -1,0 +1,228 @@
+/* =============== goole fonts =============== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.hero {
+    background: url(assets/retro-living-room-interior-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+/* =============== navbar =============== */
+nav {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand h2 {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item {
+    margin-left: 70px;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.nav-item:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    transition: color 200ms linear;
+}
+
+.nav-item a:hover {
+    color: rgb(155, 155, 155);
+}
+
+.nav-contact-icon {
+    margin-right: 10px;
+}
+
+.nav-contact-icon img {
+    width: 30px;
+}
+
+.nav-contact-number h3, a {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
+#nav-responsive-click {
+    display: none;
+}
+
+.nav-responsive-btn {
+    display: none;
+}
+
+
+/* =============== banner =============== */
+.banner {
+    padding: 0 50px;
+    position: relative;
+}
+
+.banner h1 {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.banner h1 span {
+    display: block;
+}
+
+.banner-btn a {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 15px 40px;
+    margin-left: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.feature-icon {
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 0;
+}
+
+.feature-icon img {
+    width: 35px;
+}
+
+.feature1 {
+    position: absolute;
+    right: 250px;
+    top: -65px;
+    background-color: #30495A;
+    width: 300px;
+    height: 170px;
+    padding: 30px;
+}
+
+.feature1 p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.feature1 p span {
+    display: block;
+}
+
+.feature1 p span span {
+    display: block;
+}
+
+.feature1::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background-color: #fff;
+    bottom: -80px;
+    right: 75px;
+}
+
+.feature1::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    bottom: -82px;
+    right: 68px;
+}
+
+.feature2 {
+    position: absolute;
+    right: 500px;
+    top: 270px;
+    background-color: #30495A;
+    width: 300px;
+    height: 190px;
+    padding: 30px;
+}
+
+.feature2::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    top: 80px;
+    right: -80px;
+}
+
+.feature2::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 72px;
+    right: -82px;
+}
+
+.feature2 p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.feature2 p span {
+    display: block;
+}
